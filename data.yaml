@@ -1,37 +1,37 @@
 ---
-update_time: '2017.08.06'
-name: 张睿武
-nickname: xiao555
-meta_content: 大三前端狗，HR姐姐们把我招到碗里去吧
-keywords: xiao555,前端,工作,简历
+update_time: '2018.5.17'
+name: 王晓丽
+nickname: cocoder
+meta_content: web前端工程师
+keywords: 前端,工作,简历
 ga_id: 'UA-92595311-1'
-age: 22岁
-gender: 男
-school: 西安电子科技大学
-profession: 软件工程
-grade: 大四
+age: 25岁
+gender: 女
+# school: 山西大同大学
+profession: 计算机科学与技术
+# grade: 大四
 english_level: CET-6
-blog: https://www.xiao555.com.cn
-github: https://www.github.com/xiao555
-website: 
-online: https://xiao555.github.io/Resume/
-print: https://xiao555.github.io/Resume/print.html
+# blog: https://www.xiao555.com.cn
+# github: https://www.github.com/xiao555
+# website: 
+# online: https://xiao555.github.io/Resume/
+# print: https://xiao555.github.io/Resume/print.html
 apply_to_position: Web前端工程师
-description: !!md |
-  我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
+# description: !!md |
+#   我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
 contact: # 联系方式
   -
     icon: fa-envelope
     name: Email
-    value: zhangruiwu32@gmail.com
+    value: cocoder12138@gmail.com
   -
     icon: fa-qq
     name: QQ
-    value: '1335497539'
+    value: '1515661632'
   -
     icon: fa-phone-square
     name: PhoneNumber
-    value: '18729316081'
+    value: '18322494286'
 honor: # 奖项荣誉
 tech: # 技能点
   -
@@ -41,14 +41,14 @@ tech: # 技能点
     name: JavaScript
     percentage: 60%
   -
-    name: PHP
-    percentage: 50%
-  -
     name: Git
     percentage: 60%
   -
     name: Node.js
-    percentage: 40%
+    percentage: 20%
+  -
+    name: React.js
+    percentage: 60%
 experience: # 项目经验
   -
     section: 个人项目
