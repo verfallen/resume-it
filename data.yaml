@@ -7,7 +7,8 @@ keywords: 前端,工作,简历
 ga_id: 'UA-92595311-1'
 age: 25岁
 gender: 女
-# school: 山西大同大学
+school: 山西大同大学
+education: 本科 
 profession: 计算机科学与技术
 # grade: 大四
 english_level: CET-6
@@ -17,8 +18,6 @@ english_level: CET-6
 # online: https://xiao555.github.io/Resume/
 # print: https://xiao555.github.io/Resume/print.html
 apply_to_position: Web前端工程师
-# description: !!md |
-#   我叫张睿武，西电软件学院大四学生，现在在腾讯TEG实习，负责前端开发。自学web前端，后端Node.js，PHP 也略知一二。能折腾，喜欢在实践中学习，学Vue的时候就是看两天文档，然后直接用在写个人博客上，在不断的跳坑脱坑中进步。希望在工作中能应用到自己所学的东西，跟产品一同成长。
 contact: # 联系方式
   -
     icon: fa-envelope
@@ -32,137 +31,97 @@ contact: # 联系方式
     icon: fa-phone-square
     name: PhoneNumber
     value: '18322494286'
-honor: # 奖项荣誉
+# honor: # 奖项荣誉
+#   - name: 奖学金
 tech: # 技能点
   -
     name: HTML/CSS
     percentage: 80%
   -
     name: JavaScript
-    percentage: 60%
+    percentage: 70%
   -
     name: Git
     percentage: 60%
   -
+    name: React.js
+    percentage: 60%
+  -
+    name: webpack
+    percentage: 40%
+  -
     name: Node.js
     percentage: 20%
   -
-    name: React.js
-    percentage: 60%
+    name: Typescript
+    percentage: 10%
 experience: # 项目经验
   -
     section: 个人项目
     project:
       -
-        name: nunjucks-extend-loader
-        date: 2017.2
+        name: 南大企业号开发
+        date: 2016.8
         img:
         website:
-        source_code: https://github.com/xiao555/nunjucks-extend-loader
+        # source_code: https://github.com/xiao555/nunjucks-extend-loader
         des: !!md |
-          开发了一个多页应用脚手架[Webjucks](https://github.com/xiao555/Webjucks)，开发框架的过程中，自己写了个loader，已发布在npm上。用 Node的fs模块递归创建不存在的目录，最后通过回调函数完成最后一步copy文件的动作。
+          基于微信企业号的web应用。zepto+vue作为前端框架，WEUI作为样式库，实现校园业务在微信端的使用。我负责页面的布局和效果的实现，以及与后端的对接。
       -
-        name: Resume-it
-        date: 2017.2
+        name: 企业号管理后台
+        date: 2016.11
         img:
         website:
-        source_code: https://github.com/xiao555/Resume-it
+        # source_code: https://github.com/xiao555/Resume-it
         des: !!md |
-          知乎上看大家的简历，感觉模板很多，但个人信息是不变的，所以我就想搞一个数据模板分离的简历生成器，这样无论换模板还是改数据都非常方便。暂时 48 star，21 fork，有人用是最好的。
-          
-          最初是用webpack打包的，后来换成了Gulp，简单易用，不必上webpack，后面打算改造成页面可以直接修改的。
+          基于PC端的管理后台。使用Bootstrap+vue+jQuery作为前端框架。zTree 实现对管理员权限的可视化配置，Echarts 对移动端数据进行分析展示。
       -
-        name: Blog
-        date: 2017.4-至今
+        name: 看脸吃饭
+        date: 2017.5
         img:
         website:
-        source_code: https://github.com/xiao555/blog
+        # source_code: https://github.com/xiao555/blog
         des: !!md |
-          用来练手Vue的项目，基于Koa2 + Vue2 + MongoDB + Redis 搭建的 前后端分离 + RESTful API + SSR 的博客系统，并且进行了性能优化，加快首屏渲染速度。
-          
-          最近参考vue-hacknews2.0对前端部分进行了一次重构，新版本的webpack打包体积好小，实现了按需加载css，服务器部分也正准备上docker，正在写dockerfile中...
+          主打直播和订餐的 hybird app。开发webview中嵌入的h5页面，并与原生进行交互。在这个项目中，开发使用了react+webpack+babel。我负责展示组件、容器组件的开发。在后续的开发过程中，使用redux进行了组件重构。
+      -
+        name: 看脸吃饭管理后台
+        date: 2017.7
+        img:
+        website:
+        # source_code: https://github.com/xiao555/blog
+        des: !!md |
+          app的管理后台。Hui作为css框架，采用了基于jQuery的表格插件DataTaBle实现列表分页。validform作为表单验证工具，mustache作模板。实现用户数据的管理及导出。
+      -
+        name: 3c项目
+        date: 2017.12
+        img:
+        website:
+        # source_code: https://github.com/xiao555/blog
+        des: !!md |
+          基于react-native 实现的跨平台应用，主打期货交易。在这个项目中，使用react-navigation做导航跳转。封装项目公共组件，包括弹窗，按钮，地址选择器，数字密码等等。利用现有的npm模块及react-native原生模块，重新封装模块，保持ios和android平台UI一致性。
+      -
+        name: 3c项目
+        date: 2017.12
+        img:
+        website:
+        # source_code: https://github.com/xiao555/blog
+        des: !!md |
+          基于react-native 实现的跨平台应用，主打期货交易。在这个项目中，使用react-navigation做导航跳转。封装项目公共组件，包括弹窗，按钮，地址选择器，数字密码等等。利用现有的npm模块及react-native原生模块，重新封装模块，保持ios和android平台UI一致性。
   -
-    section: 实习经历
-    exper:
-      - 
-        company: 腾讯
-        time: 2017.7.14 - 2017.9.1
-        desc: !!md |
-          在TEG研发管理部TAPD中心实习，主要做前端方面的实现需求，解决bug等工作。
-        project:
-          -
-            des: !!md |
-              技术需求上，改造过内部的一个手机号验证组件，实现了多实例，状态保存等功能，在代码层面也做了优化，减少$的使用，重复运行的代码抽离出来等等。
-          -
-            des: !!md |
-              业务需求上，在做官网轮播图需求的时候，把旧的代码封装成内部组件，并且可以绑定多个实例，实现代码的复用。
-          -
-            des: !!md |
-              在解决bug的过程中，也积累了不少经验，比如有ie下的background：rgba兼容性问题，通过google用filter解决的。
-          -
-            des: !!md |
-              在开发的过程中，我会思考怎么实现是最好的，团队的产品也教会了我认真做好每一个细节。在腾讯的人生第一次职场之旅，我觉得ok。
-      - 
-        company: WPNinja
-        time: 2016.7 - 2017.5
-        desc: 这是一个面向国外客户的远程开发团队，基于wordpress搭建网站，前五个月我负责前端部分的开发, 最大程度的还原设计稿，完成页面交互，后面开始负责后端PHP开发。
-        project:
-          -
-            name: SSRGA
-            date: '2016.7'
-            img: https://xiao555.netlify.com/ssrga.jpg
-            website: http://www.ssrga.com/
-            source_code:
-            des: !!md |
-              这是我接手的第一个项目，为了适应团队框架完成页面我快速学习了模板引擎Nunjucks，CSS预处理器Stylus，数据层YAML语法等等。
-              然后在实践中巩固，最终一个周左右实现了这个项目的前端部分。
-          -
-            name: Clubfit
-            date: '2016.8'
-            img: https://xiao555.netlify.com/clubfit.jpg
-            website: http://clubfit.vwmdev.com/
-            source_code:
-            des: !!md |
-              接手这个项目时已经对团队的框架比较熟悉了，这个项目也包括了很多页面组件，算是强化练习吧。每天的代码leader会review，我再相应的做出修改，整个过程下来收获很多，是一次蜕变。
-          -
-            name: taldumande
-            date: '2016.9'
-            img: https://xiao555.netlify.com/taldumande.jpg
-            website: https://www.taldumande.org.au/
-            source_code:
-            des: !!md |
-              这是项目前端已经能完全独立完成了，设计也有很多有趣的地方，像header，footer部分两种颜色，为了不影响其它布局也比较方便用伪元素解决。没有很难的地方，细节很多，也比较考验布局能力。
-          -
-            name: workforceprofessionals
-            date: '2016.10'
-            img: https://xiao555.netlify.com/workforceprofessionals.jpg
-            website: https://workforceprofessionals.org/
-            source_code:
-            des: !!md |
-              这个项目我负责后端，跟leader语音交流了一下后端框架的用法，研究了两三天大体了解了基于wordpress的后端的工作方式，于是用边写边学的方式完成了这个项目。我做的就是写项目有关的逻辑，数据的导入获取等等。
-              另外，首页的下面的Twitter部分是我写的，之前获取tweet的方法需要各种key麻烦还有问题，我查了好久找到一个相关的js库Twitter-Post-Fetcher，使用简单。
-          # -
-          #   name: innerdoor
-          #   date: 2016.11 - 至今
-          #   img: https://xiao555.netlify.com/innerdoor.jpg
-          #   website: http://innerdoor.vwmdev.com/
-          #   source_code:
-          #   des: !!md |
-          #     这个项目相当于一个会员系统，数据都是通过API来获取的，有大量的表格，需要从API获取大量的数据，处理数据，渲染到前端页面上。
-          #     一开始我写了一堆if-else，数据跟表单一一对应，后来发现这样做代码量很大，而且不够灵活。后来重新安排数据结构，用label作为key值，前端表单label作为value值，通过模板引擎跟后端对应起来，这样既大大减少了代码量，也提高了灵活性。
+    
 skill: # 技能清单
       -
         des: !!md |
-          能够用 HTML + CSS 编写语义化的代码，完成较复杂的布局，熟悉Stylus、PostCss 等css预处理、后处理工具
+          熟悉HTML、CSS及原生JavaScript，能够完成页面效果开发，最大化还原效果图。
       -
         des: !!md |
-          在Blog项目中熟悉了 Vue，写过Vue的双向数据绑定[Demo](https://github.com/xiao555/Two-way-Data-Bindings)， 使用了 ES6、7 的新语法，了解 Node.js, jQuery.
+          熟悉ES6/ES7新特性，熟悉 git/svn等版本管理工具，了解NodeJs
       -
         des: !!md |
-          熟悉 Git Webpack Gulp 等开发工具
+          熟悉Bootsrap/jQuery/DataTable/Swiper等流行框架
       -
         des: !!md |
-          熟悉 Koa, Express, MongoDB, Mysql 能搭建简单的后端项目，租了Digital Ocean 的VPS，腾讯云 部署网站
+          熟悉 React 全家桶的使用，熟悉react-native的开发
 
 
 ---
