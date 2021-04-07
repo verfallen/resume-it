@@ -1,127 +1,118 @@
 ---
-update_time: '2018.5.17'
+update_time: "2018.5.17"
 name: 王晓丽
-nickname: cocoder
+# nickname: cocoder
 meta_content: web前端工程师
 keywords: 前端,工作,简历
-ga_id: 'UA-92595311-1'
-age: 25岁
+ga_id: "UA-92595311-1"
+age: 27岁
 gender: 女
 school: 山西大同大学
-education: 本科 
+education: 本科
 profession: 计算机科学与技术
 # grade: 大四
 english_level: CET-6
 # blog: https://www.xiao555.com.cn
-# github: https://www.github.com/xiao555
-# website: 
+github: https://www.github.com/verfallen
+# website:
 # online: https://xiao555.github.io/Resume/
 # print: https://xiao555.github.io/Resume/print.html
-apply_to_position: Web前端工程师
+# apply_to_position: Web前端工程师
 contact: # 联系方式
-  -
-    icon: fa-envelope
+  - icon: fa-envelope
     name: Email
     value: cocoder12138@gmail.com
-  -
-    icon: fa-qq
+  - icon: fa-qq
     name: QQ
-    value: '1515661632'
-  -
-    icon: fa-phone-square
+    value: "1515661632"
+  - icon: fa-phone-square
     name: PhoneNumber
-    value: '18322494286'
+    value: "18322494286"
 # honor: # 奖项荣誉
 #   - name: 奖学金
 tech: # 技能点
-  -
-    name: HTML/CSS
-    percentage: 80%
-  -
-    name: JavaScript
+  - name: HTML/CSS
+    percentage: 95%
+  - name: JavaScript
+    percentage: 90%
+  - name: Git
     percentage: 70%
-  -
-    name: Git
-    percentage: 60%
-  -
-    name: React.js
-    percentage: 60%
-  -
-    name: webpack
+  - name: React.js
+    percentage: 90%
+  - name: webpack
     percentage: 40%
-  -
-    name: Node.js
-    percentage: 20%
-  -
-    name: Typescript
-    percentage: 10%
-experience: # 项目经验
-  -
-    section: 个人项目
-    project:
-      -
-        name: 南大企业号开发
-        date: 2016.8
-        img:
-        website:
-        # source_code: https://github.com/xiao555/nunjucks-extend-loader
-        des: !!md |
-          基于微信企业号的web应用。zepto+vue作为前端框架，WEUI作为样式库，实现校园业务在微信端的使用。我负责页面的布局和效果的实现，以及与后端的对接。
-      -
-        name: 企业号管理后台
-        date: 2016.11
-        img:
-        website:
-        # source_code: https://github.com/xiao555/Resume-it
-        des: !!md |
-          基于PC端的管理后台。使用Bootstrap+vue+jQuery作为前端框架。zTree 实现对管理员权限的可视化配置，Echarts 对移动端数据进行分析展示。
-      -
-        name: 看脸吃饭
-        date: 2017.5
-        img:
-        website:
-        # source_code: https://github.com/xiao555/blog
-        des: !!md |
-          主打直播和订餐的 hybird app。开发webview中嵌入的h5页面，并与原生进行交互。在这个项目中，开发使用了react+webpack+babel。我负责展示组件、容器组件的开发。在后续的开发过程中，使用redux进行了组件重构。
-      -
-        name: 看脸吃饭管理后台
-        date: 2017.7
-        img:
-        website:
-        # source_code: https://github.com/xiao555/blog
-        des: !!md |
-          app的管理后台。Hui作为css框架，采用了基于jQuery的表格插件DataTaBle实现列表分页。validform作为表单验证工具，mustache作模板。实现用户数据的管理及导出。
-      -
-        name: 3c项目
-        date: 2017.12
-        img:
-        website:
-        # source_code: https://github.com/xiao555/blog
-        des: !!md |
-          基于react-native 实现的跨平台应用，主打期货交易。在这个项目中，使用react-navigation做导航跳转。封装项目公共组件，包括弹窗，按钮，地址选择器，数字密码等等。利用现有的npm模块及react-native原生模块，重新封装模块，保持ios和android平台UI一致性。
-      -
-        name: 3c项目
-        date: 2017.12
-        img:
-        website:
-        # source_code: https://github.com/xiao555/blog
-        des: !!md |
-          基于react-native 实现的跨平台应用，主打期货交易。在这个项目中，使用react-navigation做导航跳转。封装项目公共组件，包括弹窗，按钮，地址选择器，数字密码等等。利用现有的npm模块及react-native原生模块，重新封装模块，保持ios和android平台UI一致性。
-  -
-    
+  - name: Node.js
+    percentage: 40%
+  - name: Typescript
+    percentage: 50%
 skill: # 技能清单
       -
         des: !!md |
-          熟悉HTML、CSS及原生JavaScript，能够完成页面效果开发，最大化还原效果图。
+          熟练掌握前端技术， 包括但不仅限于 HTML， CSS， JavaScript， TypeScript， jQuery ,React
+        
+      -
+        des: !!md | 
+          熟练使用 echarts,bizcharts 等可视化图表库，有丰富的数据可视化处理经验。
+
       -
         des: !!md |
-          熟悉ES6/ES7新特性，熟悉 git/svn等版本管理工具，了解NodeJs
+          熟悉 git/svn等各种版本管理工具，了解NodeJs
+
       -
         des: !!md |
-          熟悉Bootsrap/jQuery/DataTable/Swiper等流行框架
-      -
-        des: !!md |
-          熟悉 React 全家桶的使用，熟悉react-native的开发
+          了解 python 基本语法
+experience: # 项目经验
+- 
+  section: 工作经历
+  exper:
+      - 
+        company: 天津卓朗科技发展有限公司
+        date: 201901 - 至今
+        job: 前端工程师
+        project:
+          -
+            name: 完美工事运营管理后台
+            date: 201901 - 至今
+            des: 基于阿里推出的企业级中后台解决方案 antd-pro 完成产品的开发。结合中后台表单繁杂的情况，推出可配置表单方案，大大提升开发效率。
+          -
+            name: 数据中心 3d 模型 UI 组件的开发
+            date: 202101 - 至今
+            des: 我负责与 3d 模型交互页面的开发，为了方便 3d 模型调用，将页面抽象为组件级别进行开发，使用 npm 进行发包，方便后续开发和维护。
+        
+      - 
+        company: 天津卓朗科技发展有限公司
+        date: 201901 - 至今
+        job: 前端工程师
+        project:
+          -
+            name: 完美工事运营管理后台
+            date: 201901 - 至今
+            des: 基于阿里推出的企业级中后台解决方案 antd-pro 完成产品的开发。结合中后台表单繁杂的情况，推出可配置表单方案，大大提升开发效率。
+          -
+            name: 数据中心 3d 模型 UI 组件的开发
+            date: 202101 - 至今
+            des: 我负责与 3d 模型交互页面的开发，为了方便 3d 模型调用，将页面抽象为组件级别进行开发，使用 npm 进行发包，方便后续开发和维护。
+        
+      # - 
+      #   company: 天津在线回声科技发展有限公司
+      #   date: 201705-201805
+      #   job: 前端工程师
+      #   project:
+      #     -
+      #       name: 3C 贸易平台
+      #       # date: 201901 - 至今
+      #       des: 基于 react-native 开发了跨平台 APP，实现两端并行开发，大大减少移动端开发成本。
+          
+      # - 
+      #   company: 天津应生信息科技公司
+      #   date: 201607-201705
+      #   job: 前端工程师
+      #   project:
+      #     -
+      #       name: 南开大学企业号
+      #       date: 201607-201705
+      #       des: 基于 vue.js 开发，负责实现页面布局，与后端进行对接，采用 jQuery进行交互获取数据，zTree 实现管理员权限的可视化配置，并用 echarts 对移动端使用数据进行分析展示。
 
 
 ---
+

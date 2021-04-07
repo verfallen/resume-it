@@ -36,10 +36,10 @@
                     <dd><i class="fa {{ item.icon }}"></i>{{ item.name }}: <a {% if item.name == 'Email' %}href="mailto:{{ item.value }}"{% endif %} target="_blank">{{ item.value }}</a></dd>
                 {% endfor %}
             </li>
-            <li class="someRight">
+            <!-- <li class="someRight">
                 <dt><i class="fa fa-bookmark"></i>Application. 应聘岗位</dt>
                 <dd>{{ apply_to_position }}</dd>
-            </li>
+            </li> -->
             {% if honor %}
             <li class="someRight">
                 <dt><i class="fa fa-bookmark"></i>Honor. 奖项荣誉</dt>
@@ -109,7 +109,7 @@
                         <ul class="exp">
                             {% for item in exp.exper %}
                             <li>
-                                <h4>{{ item.company }} <span>{{ item.date }}</span></h4>
+                                <h4>{{ item.company }} <span>{{ item.date }}</span> <span>{{item.job}}</span></h4>
                                 <p>{{ item.desc | safe}}</p>
                                 <ul>
                                     {% for sub_item in item.project %}
