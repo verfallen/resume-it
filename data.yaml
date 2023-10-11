@@ -5,11 +5,11 @@ name: 王晓丽
 meta_content: web前端工程师
 keywords: 前端,工作,简历
 ga_id: "UA-92595311-1"
-age: 27岁
+age: 1993-05
 gender: 女
-school: 山西大同大学
-education: 本科
-profession: 计算机科学与技术
+# school: 山西大同大学
+# education: 本科
+# profession: 计算机科学与技术
 # grade: 大四
 english_level: CET-6
 # blog: https://www.xiao555.com.cn
@@ -28,6 +28,13 @@ contact: # 联系方式
   - icon: fa-phone-square
     name: PhoneNumber
     value: "18322494286"
+education: # 教育经历
+  - school: 山西大同大学
+    major: 计算机科学与技术
+    time: 2012-2016
+  - school: 中国科学院大学
+    major: 电子信息
+    time: 2021-至今
 # honor: # 奖项荣誉
 #   - name: 奖学金
 tech: # 技能点
@@ -45,23 +52,80 @@ tech: # 技能点
     percentage: 40%
   - name: Typescript
     percentage: 50%
+# skill: # 技能清单
+#       -
+#         des: !!md |
+#           熟练掌握前端技术， 包括但不仅限于 HTML， CSS， JavaScript， TypeScript， jQuery ,React
+        
+#       -
+#         des: !!md | 
+#           熟练使用 echarts,bizcharts 等可视化图表库，有丰富的数据可视化处理经验。
+
+#       -
+#         des: !!md |
+#           熟悉 git/svn等各种版本管理工具，了解NodeJs
+
+#       -
+#         des: !!md |
+#           了解 python 基本语法
+
 skill: # 技能清单
       -
         des: !!md |
-          熟练掌握前端技术， 包括但不仅限于 HTML， CSS， JavaScript， TypeScript， jQuery ,React
-        
-      -
-        des: !!md | 
-          熟练使用 echarts,bizcharts 等可视化图表库，有丰富的数据可视化处理经验。
-
-      -
+          - 编程语言
+            - python
+            - javascript
+      - 
         des: !!md |
-          熟悉 git/svn等各种版本管理工具，了解NodeJs
-
-      -
+          - NLP 框架和库
+            - pytorch
+            - gensim
+            - transformers
+      - 
         des: !!md |
-          了解 python 基本语法
+          - 工具和开发环境
+            - visual studio code
+            - jupyter notebook
+            - git
+            - github
+
+      - 
+        des: !!md |
+          - 其他技能
+            - neo4j 数据库
+            - 数据分析包echarts
+            - 前端VUE，React框架
+
+
 experience: # 项目经验
+- 
+  section: 个人项目
+  project:
+    - 
+      name: 文本分类模型
+      date: 2021-12
+      desc: 根据企业的填报内容判断是否有潜在的风险
+      introduction: 使用transformer 的bert模型实现的二分类模型
+      website: https://gitee.com/cocoder1993/homework/blob/master/nlp/nlp_report_code/classfication_bert.ipynb
+
+    -
+      name: 实体识别模型
+      date: 2023-02
+      desc: 复现多种实体识别模型，包括bilstm-crf, bilstm-cnn-crf, bert 
+      introduction: 使用fastNLP包实现上述模型
+      website: https://gitee.com/cocoder1993/ner
+
+    - name: 医疗KBQA项目
+      date: 2022-12
+      desc: !!md fork 自 ![https://github.com/wangle1218/KBQA-for-Diagnosis](https://github.com/wangle1218/KBQA-for-Diagnosis)
+      introduction: 由于微信登录机制改变，无法实现效果中微信机器人的效果，改为使用gradio 实现的对话机器人
+      img: 
+
+    - name: 前端项目
+      date: 2016-2021
+      desc: 在读研前是前端开发工程师，开发过PC后台管理系统，公司官网，公司内部UI组件，小程序等。
+      introduction: 使用过react，antd, vue 等框架实现，
+
 - 
   section: 工作经历
   exper:

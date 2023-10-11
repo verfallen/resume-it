@@ -11,9 +11,9 @@
             <li class="someRight">
                 <dt><i class="fa fa-bookmark"></i>Basic info. 基本信息</dt>
                 <dd><span>个人信息:</span> {{ name }} / {{ gender }} / {{ age }}</dd>
-                <dd><span>学校：</span>{{school}}</dd>
+                <!-- <dd><span>学校：</span>{{school}}</dd>
                 <dd><span>学历:</span>{{education}}</dd>
-                <dd><span>专业：</span>{{profession}}</dd>
+                <dd><span>专业：</span>{{profession}}</dd> -->
                 {% if english_level %}
                 <dd><span>英语水平:</span> {{ english_level }}</dd>
                 {% endif %}
@@ -36,6 +36,16 @@
                     <dd><i class="fa {{ item.icon }}"></i>{{ item.name }}: <a {% if item.name == 'Email' %}href="mailto:{{ item.value }}"{% endif %} target="_blank">{{ item.value }}</a></dd>
                 {% endfor %}
             </li>
+
+            <li class="someRight">
+                <dt><i class="fa fa-bookmark"></i>Educationi. 教育经历</dt>
+                {% for item in education %}
+                    <dd>{{ item.time }} </dd>
+                    <dd>&nbsp;&nbsp;&nbsp;{{ item.school }} </dd>
+                    <dd>&nbsp;&nbsp;&nbsp;{{ item.major }} </dd>
+                {% endfor %}
+            </li>
+
             <!-- <li class="someRight">
                 <dt><i class="fa fa-bookmark"></i>Application. 应聘岗位</dt>
                 <dd>{{ apply_to_position }}</dd>
@@ -52,8 +62,8 @@
                 </dd>
             </li>
             {% endif %}
-            <li class="skill">
-                <dt><i class="fa fa-bookmark"></i>Tech. 主要技能点</dt>
+            <!-- <li class="skill">
+                <dt><i class="fa fa-bookmark"></i>Tech. 主要技能</dt>
                 {% for item in tech %}
                 <dd>
                     <div class="skill-name">{{ item.name }}</div>
@@ -62,6 +72,25 @@
                     </div>
                 </dd>
                 {% endfor %}
+            </li> -->
+
+            <!-- <li class="skill">
+                <dt><i class="fa fa-bookmark"></i>Tech. 主要技能</dt>
+                {% for item in tech %}
+                <dd>
+                    {{ item.name }} {{ item.percentage }}
+                </dd>
+                {% endfor %}
+            </li> -->
+
+            <li class="skill">
+                <dt><i class="fa fa-bookmark"></i>Tech. 主要技能</dt>
+                <div class="skills">
+                {% for item in skill %}
+                  {{ item.des |safe }}
+                {% endfor %}
+                </div>
+
             </li>
         </ul>
         {% if intro %}
@@ -72,7 +101,7 @@
     </div>
     <div class="main">
         <ul class="main-info">
-            <li class="skill">
+            <!-- <li class="skill">
                 <dt><i class="fa fa-bookmark"></i>Skill. 技能清单</dt>
                 {% for item in skill %}
                 <ul class="exp">
@@ -80,11 +109,19 @@
                 </ul>
                 {% endfor %}
             </li>
+            <li class="introduction">
+                <dt><i class="fa fa-bookmark"></i>Introduction.  自述</dt>
+                {% for item in introduction %}
+                <ul class="exp">
+                  <li>{{ item.des |safe }}</li>
+                </ul>
+                {% endfor %}
+            </li> -->
             <li class="experience">
                 <dt><i class="fa fa-bookmark"></i>Experience. 项目经验</dt>
                 {% for exp in experience %}
                     {% if exp.section == '个人项目' %}
-                        <!-- <h2 class="exp-title">{{exp.section}}</h2> -->
+                        <h2 class="exp-title">{{exp.section}}</h2>
                         <ul class="exp">
                             {% for item in exp.project %}
                             <li>
@@ -97,6 +134,9 @@
                                 <a href="{{ item.source_code }}" target="_blank"><i class="fa fa-link"></i>SourceCode</a>
                                 {% endif %}
                                 </h4>
+                                <p>任务概述：{{item.desc}}</p>
+                                <p>任务实现：{{ item.introduction | safe}}</p>
+
                                 <div class="clearfix">
                                   {% if item.img %}<img src="{{ item.img }}">{% endif %}
                                   {{ item.des |safe }}
