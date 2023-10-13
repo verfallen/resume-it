@@ -83,7 +83,7 @@
                 {% endfor %}
             </li> -->
 
-            <li class="skill">
+            <!-- <li class="skill">
                 <dt><i class="fa fa-bookmark"></i>Tech. 主要技能</dt>
                 <div class="skills">
                 {% for item in skill %}
@@ -91,7 +91,7 @@
                 {% endfor %}
                 </div>
 
-            </li>
+            </li> -->
         </ul>
         {% if intro %}
         <div class="note">
@@ -101,6 +101,15 @@
     </div>
     <div class="main">
         <ul class="main-info">
+            <li class="skill">
+                <dt><i class="fa fa-bookmark"></i>Tech. 主要技能</dt>
+                <div class="skills">
+                {% for item in skill %}
+                  {{ item.des |safe }}
+                {% endfor %}
+                </div>
+
+            </li>
             <!-- <li class="skill">
                 <dt><i class="fa fa-bookmark"></i>Skill. 技能清单</dt>
                 {% for item in skill %}
